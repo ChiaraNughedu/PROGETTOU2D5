@@ -1,0 +1,86 @@
+* {
+	box-sizing: border-box;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+/*HEADER*/
+header {
+    background-color: #ffc017;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    border-bottom: 1px solid black;
+    position: sticky;
+    top: 0;
+}
+#headervoid {
+    width: 52%;
+}
+nav ul {
+     list-style-type: none;
+    display: flex; 
+}
+#navbar {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+}
+#navbar button {
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 12px;
+    padding: 5px 10px;
+}
+/*HERO SECTION*/
+
+#heroSection {
+    background-color: #ffc017;
+    padding: 0 20px;
+    width: 100%;
+    height: 350px;
+    display: flex; 
+}
+
+#heroTitles {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+#heroTitles h1 {
+    font-family: "Spectral", sans-serif;
+    font-size: 3.5rem;
+    letter-spacing: -2px;
+    line-height: 0.3;
+    padding-bottom: 0;
+    margin-bottom: 5px;
+}
+#herotitles, p {
+    font-size: 1.2rem;
+    font-weight: 400;
+    padding-top: 5px;
+    padding-bottom: 30px;
+}
+#heroTitles button {
+background-color: black;
+color: white;
+font-size: 1rem;
+letter-spacing: 0.5px;
+padding: 10px 40px;
+border: none;
+border-radius: 15px;
+}
+#herovoid {
+width: 20%;
+}
+#heroSvg {
+    display: flex;
+
+}
