@@ -1,4 +1,4 @@
-const header = document.querySelector("header");
+const header = document.getElementById("header");
 const button = document.getElementById("button");
 window.addEventListener('scroll', function() {
     if (window.scrollY > 190) {
