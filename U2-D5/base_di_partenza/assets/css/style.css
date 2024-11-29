@@ -16,8 +16,10 @@ header {
   padding: 0 30px;
   padding-left: 100px;
   border-bottom: 1px solid black;
-  position: sticky;
+  position: fixed;
   top: 0;
+  left: 0;
+  right: 0;
   z-index: 1;
 }
 #headervoid {
@@ -156,16 +158,44 @@ p {
 }
 #secondSection {
   width: 100%;
-  padding-left: 100px;
+  padding-left: 50px;
   display: flex;
 }
+aside {
+    align-self: flex-start;
+    padding: 15px;
+    width: 80%;
+    position: sticky;
+    top: 20px;
+  }
+  aside h2 {
+    text-transform: uppercase;
+    padding: 15px;
+  }
+  #primibutton button {
+    padding: 15px;
+    border: none;
+  
+    border-radius: 10px;
+  }
+  #linklist {
+    padding-left: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    list-style-type: none;
+    gap: 40px;
+  }
+  #linklist li a {
+    text-decoration: none;
+    color: rgb(58, 54, 54);
+  }
 
 .secondArticle {
   height: 160px;
   display: flex;
   justify-content: center;
-  align-items: center;
-  flex-basis: 70%;
+  margin: 10px;
   /*border: 1px solid black;*/
 }
 
@@ -204,45 +234,21 @@ div {
 }
 .timeAndSvg span {
   background-color: rgb(177, 173, 173);
-  padding: 8px;
+  padding: 2px 8px;
   border: none;
   border-radius: 20px;
 }
-#voidTS {
-    width: 20px;
-}
+
 .articleImage {
   display: flex;
 }
 .articleImage img {
   width: 180px;
   height: 150px;
+  margin: 10px;
+  border-radius: 8px;
   align-self: flex-end;
   right: 0;
 }
-aside {
-  align-items: flex-start;
-  margin: 5px;
-  width: 80%;
-}
-aside h2 {
-  text-transform: uppercase;
-}
-#primibutton button {
-  padding: 15px;
-  border: none;
 
-  border-radius: 10px;
-}
-#linklist {
-  padding-left: 5px;
-  display: flex;
-  flex-wrap: wrap;
-  align-content: space-between;
-  list-style-type: none;
-  gap: 40px;
-}
-#linklist li a {
-  text-decoration: none;
-  color: rgb(58, 54, 54);
-}
+
