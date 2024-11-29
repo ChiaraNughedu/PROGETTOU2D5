@@ -165,7 +165,7 @@ p {
    justify-content: center;
    align-items: center;
    flex-basis: 70%;
-   border: 1px solid black;
+   /*border: 1px solid black;*/
 }
 
 .author img {
@@ -216,4 +216,30 @@ font-weight: 800;
     align-self: flex-end;
     right: 0;
     
+}
+aside {
+    align-items: flex-start;
+    margin: 5px;
+    width:100%;
+}
+aside h2 {
+    text-transform: uppercase;
+}
+#primibutton button {
+padding: 15px; 
+border: none;
+
+border-radius: 10px;
+}
+#linklist {
+    padding-left: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    list-style-type: none;
+    gap: 40px;
+}
+#linklist li a {
+    text-decoration: none;
+    color: rgb(58, 54, 54);
 }
